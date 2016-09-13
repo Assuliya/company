@@ -1,9 +1,32 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181 !important;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030 !important;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030 !important;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e !important;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
+    font-family: Montserrat, sans-serif;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
@@ -29,11 +52,22 @@
     background-color: #f4511e !important; /* Orange */
     color: #ffffff !important;
     padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
     padding: 60px 50px;
     padding: 60px 50px;
+}
+
+.container-fluid button{
+  background-color: #f4511e !important;
+  color: #fff;
+}
+.container-fluid .btn:hover{
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
 }
 
 .bg-grey {
@@ -145,4 +179,12 @@
     margin: 15px 0;
     background-color: #f4511e;
     color: #fff;
+}
+
+
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
 }
